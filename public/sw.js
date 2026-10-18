@@ -1,6 +1,6 @@
-const VERSION = 'monarch-v1-2-supabase-sync';
+const VERSION = 'monarch-v1-2-1-ios-icon-2026';
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(VERSION).then((cache) => cache.addAll(['/','/index.html','/favicon.png','/icon-192.png','/icon-512.png','/assets/monarch-mark.webp'])));
+  event.waitUntil(caches.open(VERSION).then((cache) => cache.addAll(['/','/index.html','/favicon.png','/monarch-touch-2026.png','/monarch-icon-192-2026.png','/monarch-icon-512-2026.png','/assets/monarch-mark.webp'])));
   self.skipWaiting();
 });
 self.addEventListener('activate', (event) => {
